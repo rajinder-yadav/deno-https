@@ -3,8 +3,8 @@ const fs = require('fs');
 
 // Read the certificate and private key
 const options = {
-  key: fs.readFileSync('private-key.pem', 'utf8'),
-  cert: fs.readFileSync('certificate.pem', 'utf8'),
+  key: fs.readFileSync('./ssl/private-key.pem', 'utf8'),
+  cert: fs.readFileSync('./ssl/certificate.pem', 'utf8'),
   passphrase: 'hello123' // Replace with your actual passphrase
 };
 
