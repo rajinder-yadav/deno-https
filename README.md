@@ -4,6 +4,14 @@ The SSL cert is self-signed with a passphrase of `hello123`.
 
 ## Running code using Node.js
 
+Install NPM packages:
+
+```sh
+$ pnpm install
+```
+
+Run code using Node.js:
+
 ```sh
 $ pnpm run dev
 
@@ -27,7 +35,7 @@ Hello, this is an HTTPS server with an encrypted private key!
 
 ## Running code using Deno
 
-Code will error our.
+Deno produces an error:
 
 ```sh
 $ deno task dev
