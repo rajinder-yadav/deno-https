@@ -35,6 +35,13 @@ Hello, this is an HTTPS server with an encrypted private key!
 
 ## Running code using Deno
 
+Delete node_modules folder before running Deno:
+
+```sh
+$ rm -rf node_modules
+$ deno install
+```
+
 Deno produces an error:
 
 ```sh
